@@ -29,4 +29,6 @@ struct Node {
  */
 bool equalPaths(Node * root);
 
+bool pathCheck(Node * node, int & depth, int curr_depth);
+
 #endif
